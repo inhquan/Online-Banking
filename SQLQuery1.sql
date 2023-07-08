@@ -102,30 +102,3 @@ CREATE TABLE [Admin] (
   [flag] bit
 )
 GO
-
-ALTER TABLE [Account] ADD FOREIGN KEY ([CustomerId]) REFERENCES [Customer] ([CustomerId])
-GO
-
-ALTER TABLE [Branch] ADD FOREIGN KEY ([BankId]) REFERENCES [Bank] ([BankId])
-GO
-
-ALTER TABLE [Logging] ADD FOREIGN KEY ([CustomerId]) REFERENCES [Customer] ([CustomerId])
-GO
-
-ALTER TABLE [Transaction] ADD FOREIGN KEY ([AccountIdSent]) REFERENCES [Account] ([AccountId])
-GO
-
-ALTER TABLE [Transaction] ADD FOREIGN KEY ([AccountIdRecive]) REFERENCES [Account] ([AccountId])
-GO
-
-ALTER TABLE [Message] ADD FOREIGN KEY ([AccountId]) REFERENCES [Account] ([AccountId])
-GO
-
-ALTER TABLE [Account] ADD FOREIGN KEY ([BranchId]) REFERENCES [Branch] ([BranchId])
-GO
-
-ALTER TABLE [check] ADD FOREIGN KEY ([AccountIdSent]) REFERENCES [Transaction] ([AccountIdSent])
-GO
-
-ALTER TABLE [check] ADD FOREIGN KEY ([AccountIdRecive]) REFERENCES [Transaction] ([AccountIdRecive])
-GO
