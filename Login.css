@@ -1,0 +1,35 @@
+h1{
+    color: aqua;
+/* '    border: solid; */
+    padding-left: 540px;
+}
+
+html{
+    background-color: blueviolet;
+}
+ul li{
+    list-style-type: none;
+}
+
+form{
+    /* border: solid; */
+    background-color: lightblue;
+    /* padding-left: 500px;
+    margin-top: 50px; */
+}
+
+div{
+    /* border: solid; */
+    padding-left: 560px;
+    /* margin-top: 10px; */
+    padding-top: 10px;
+    /* padding-top: 10px; */
+}
+
+.Submit{
+    padding-left: 580px;
+}
+
+a{
+    padding-left: 4%;
+}
