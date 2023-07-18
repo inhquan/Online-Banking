@@ -1,35 +1,40 @@
 h1{
     color: aqua;
 /* '    border: solid; */
-    padding-left: 540px;
+    text-align: center;
 }
 
 html{
     background-color: blueviolet;
 }
+
 ul li{
     list-style-type: none;
 }
 
-form{
+table{
     /* border: solid; */
     background-color: lightblue;
-    /* padding-left: 500px;
-    margin-top: 50px; */
+    align-items: center;
+    /* display: flex; */
+    align-items: center;
+    margin-left: 530px;
+
 }
 
-div{
-    /* border: solid; */
-    padding-left: 560px;
-    /* margin-top: 10px; */
-    padding-top: 10px;
-    /* padding-top: 10px; */
+p{
+    text-align: center;
 }
 
 .Submit{
     padding-left: 580px;
 }
 
-a{
-    padding-left: 4%;
+div.SignUp{
+    padding-left: 670px;
 }
+
+a{
+    padding-left: 10%;
+}
+

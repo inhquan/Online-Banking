@@ -8,38 +8,54 @@
 </head>
 <body>
     <h1>LTQM Banking</h1>
-    <form onsubmit="SignUp()">
-        <div class="SignUp">Sign Up</div>
-        <div>
-            User Name:<input id="UserName" type="text" placeholder="UserName">
-        </div>
-        <div>
-            Date Of Birth:<input id="DateOfBirth" type="date" placeholder="DateOfBirth">
-        </div> 
-        <div>
-            Phone:<input id="Phone" type="number" placeholder="Phone">
-        </div>
-        <div>
-            Email:<input id="Email" type="text" placeholder="Email">
-        </div>   
-        <div class="PassWord">
-            PassWord:<input id="PassWord" type="password" placeholder="PassWord">
-        </div>
-        <div class="ConfirmPassword">
-            ConfirmPassword:<input id="ConfirmPassword" type="text" placeholder="ConfirmPassword">
-        </div>
-        <div>
-            Branch:<input id="Branch" type="text" placeholder="Branch">
-        </div>
-        <div>
-            AccountType:<input id="AccountType" type="text" placeholder="AccountType">
-        </div>
-        <div class="Submit"> 
-            <button  type="Submit">SignUp</button>
-            <a href="Login.html"> Login</a>
-        </div>
+    <p>Sign Up</p>
+    <table>
+        <tr>
+            <td>UserName:</td>
+            <td><input id="UserName" type="text" placeholder="UserName"></td>
+        </tr>
+
+        <tr>
+            <td>Date Of Birth:</td>
+            <td><input id="DateOfBirth" type="date" placeholder="DateOfBirth"></td>
+        </tr>
+
+        <tr>
+            <td>Phone:</td>
+            <td><input id="Phone" type="number" placeholder="Phone"></td>
+        </tr>
         
-    </form>
+        <tr>
+            <td>Email:</td>
+            <td><input id="Email" type="text" placeholder="Email"></td>     
+        </tr>
+          
+        <tr>
+            <td class="PassWord">PassWord:</td>
+            <td><input id="PassWord" type="password" placeholder="PassWord"></td>
+        </tr>
+        
+        <tr>
+            <td class="ConfirmPassword">ConfirmPassword:</td>
+            <td><input id="ConfirmPassword" type="text" placeholder="ConfirmPassword"></td>    
+        </tr>
+        
+        <tr>
+            <td>Branch:</td>
+            <td><input id="Branch" type="text" placeholder="Branch"></td>    
+        </tr>
+        
+        <tr>
+            <td>AccountType:</td>
+            <td><input id="AccountType" type="text" placeholder="AccountType"></td>    
+        </tr>
+
+        <!-- <tr>
+            <td class="Submit"><button  type="Submit">SignUp</button></td>
+            <td><a href="Login.html"> Login</a></td>    
+        </tr> -->
+    </table>
+    
     <script src="main.js"></script>
 </body>
 </html>
